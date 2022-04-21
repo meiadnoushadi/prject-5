@@ -1,0 +1,456 @@
+/* ----------------- first Desltop ----------------- */
+/* meidaQuery and style,layout header */
+@media screen and (max-width: 576px) {
+  /* class to meidaQuery */
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+  /* ****************** header ******************  */
+  /* --- style and layout header nav --- */
+  header {
+    font-size: 1em;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 3px;
+    /* font-size: 0.7em; */
+  }
+  header nav .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  header nav .nav-right a {
+    color: #444;
+    padding: 3px 3px;
+    margin: 0 5px;
+    font-size: 1.1em;
+  }
+  header nav .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  header nav .nav-left .register-login-btn {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    margin: 0 5px;
+    border: 0.5px solid #444;
+    border-radius: 5px;
+  }
+  header nav .nav-left .register-login-btn a {
+    color: #444;
+    margin: 0 10px;
+    font-size: 0.8em;
+  }
+  header nav .nav-left .register-login-btn i {
+    color: #444;
+    font-size: 0.9em;
+  }
+  /* --- style and layout header section --- */
+  .slidbar {
+    position: relative;
+    font-size: 1em;
+  }
+  .slidbar .slides .item {
+    position: relative;
+    display: block;
+  }
+  .slidbar .slides .item img {
+    width: 100%;
+  }
+  .slidbar .slides .item span {
+    position: absolute;
+    font-weight: bolder;
+    right: 5%;
+    top: 10%;
+    font-size: 0.7em;
+    color: black;
+  }
+  .slidbar .buttons {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1;
+    font-size: 0.6em;
+  }
+  .slidbar .buttons i {
+    color: rgb(255, 255, 255);
+    margin: 2px;
+  }
+  .slidbar .buttons i:hover {
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 576px) {
+  /* class to meidaQuery */
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  /* ****************** header ******************  */
+  /* --- style and layout header nav --- */
+  header {
+    font-size: 1em;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+  }
+  header nav .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  header nav .nav-right a {
+    color: #444;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 1.2em;
+  }
+  header nav .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  header nav .nav-left .register-login-btn {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+  }
+  header nav .nav-left .register-login-btn a {
+    color: #444;
+    margin: 0 10px;
+    font-size: 0.8em;
+  }
+  header nav .nav-left .register-login-btn i {
+    color: #444;
+    font-size: 1.2em;
+  }
+  /* --- style and layout header section --- */
+  .slidbar {
+    position: relative;
+    font-size: 1em;
+  }
+  .slidbar .slides .item .active {
+    position: relative;
+    display: block;
+  }
+  .slidbar .slides .item img {
+    width: 100%;
+  }
+  .slidbar .slides .item span {
+    position: absolute;
+    font-weight: bolder;
+    right: 5%;
+    top: 30%;
+    font-size: 1.2em;
+    color: black;
+  }
+  .slidbar .buttons {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    z-index: 1;
+  }
+  .slidbar .buttons i {
+    color: rgb(255, 255, 255);
+    margin: 2px;
+  }
+  .slidbar .buttons i:hover {
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+}
+/* style,layout main */
+/* ****************** main ******************  */
+/* --- style and layout (main) ==> product section --- */
+.home-page-product-section {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+.home-page-product-section .shoping-card {
+  text-align: center;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.shoping-card .img-sec {
+  position: relative;
+}
+.shoping-card .img-sec img {
+  width: 60%;
+  margin: 25% 0px;
+}
+.shoping-card .img-sec .hot-offer {
+  background-color: #e74c3c;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 0.5em;
+}
+.shoping-card .img-sec .star {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  font-size: 0.6em;
+  color: #f1c40f;
+  z-index: 1;
+}
+.shoping-card .title {
+  color: #333;
+  margin: 15px;
+}
+.shoping-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 5%;
+}
+.shoping-card .buttons .right .price {
+  color: #222;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.shoping-card .buttons .left {
+  display: flex;
+}
+.shoping-card .buttons .left .extent-btn {
+  display: flex;
+  margin-left: 3%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #2ecc71;
+  padding: 4px 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.shoping-card .buttons .left .extent-btn .b-text {
+  display: none;
+}
+.shoping-card .buttons .left .extent-btn .b-icon {
+  color: white;
+  padding: 4px;
+}
+.shoping-card .buttons .left .extent-btn:hover {
+  display: flex;
+  margin-left: 3%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background-color: #87f0b3;
+  padding: 4px 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/* --- style and layout (main) ==> super offer section --- */
+.super-offer-section {
+  padding: 18px;
+}
+.super-offer-box {
+  margin: 3px;
+  /* padding: 20px; */
+  font-size: 1em;
+  text-align: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+}
+.super-offer-box > .title {
+  border: 1px solid;
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 30px;
+  display: inline-block;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.super-offer-box .body {
+}
+.super-offer-box .body .img-container {
+  text-align: center;
+  padding: 20px;
+}
+.super-offer-box .body .img-container img {
+  width: 100%;
+}
+.super-offer-box .body .spesi {
+  padding: 10px 20px;
+}
+.super-offer-box .body .spesi .price-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.super-offer-box .body .spesi .price-row .price {
+  margin-left: 3px;
+  color: #444;
+  font-size: 1.2em;
+}
+.super-offer-box .body .spesi .price-row .off {
+  display: inline-block;
+  color: white;
+  background-color: #e74c3c;
+  padding: 3px 5px;
+  border-radius: 25px;
+  font-size: 0.8em;
+}
+.super-offer-box .body .spesi > .title {
+  margin: 0 40px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.super-offer-box .body .spesi .conuter-down {
+  border-top: 2px solid #444;
+  font-weight: bold;
+  margin: 40px 0px;
+  padding: 30px;
+  color: #444;
+  font-size: 1.6em;
+}
+.super-offer-box .body .spesi .remaining-time {
+  color: #222;
+  font-size: 0.8em;
+}
+.baner {
+  text-align: center;
+  padding: 0 5px;
+}
+.baner img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+/* ****************** footer ******************  */
+footer {
+  background-color: #95a5a6;
+  font-size: 1em;
+}
+footer .right {
+  padding: 20px;
+  text-align: justify;
+}
+footer .right > .title {
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+}
+footer .right .doc {
+  color: rgba(236, 240, 241, 0.8);
+  line-height: 1.9;
+}
+footer .left {
+  padding: 20px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .left > .title {
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+  text-align: justify;
+}
+footer .left .soc {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .left .soc a {
+  color: #ecf0f1;
+  font-size: 1.5em;
+  margin: 5%;
+}
+footer .bottom {
+  font-size: 1.1em;
+  background-color: #2c3e50;
+  color: #bdc3c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

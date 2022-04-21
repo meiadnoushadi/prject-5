@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "B Yekan";
+  src: url(../font/B_Yekan/Yekan.ttf);
+}
+* {
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "B Yekan";
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+/* --- clear fix --- */
+[class^="col-"] {
+  float: right;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
